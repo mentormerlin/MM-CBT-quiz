@@ -231,7 +231,7 @@ function submitQuiz() {
 }
 
 function sendResultToSheet(result) {
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwUVsCrMVg8fc_dPUYJZxDt9esT805YPCxDgnzBHHjsVYVqBLfx24dD-0Q-Cun2XUVq/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw6ejsmEtTh2OddlBsaAFwFgadvQ1M8PCFz_VtcsSpX0Aj0tBQwR7_VJoMF9l7n_qLL/exec';
     if (!scriptURL) return;
 
     fetch(scriptURL, {
@@ -259,7 +259,7 @@ function loadLeaderboard() {
 
 function fetchLeaderboardData() {
     return new Promise((resolve, reject) => {
-        const readURL = 'https://script.google.com/macros/s/AKfycbwUVsCrMVg8fc_dPUYJZxDt9esT805YPCxDgnzBHHjsVYVqBLfx24dD-0Q-Cun2XUVq/exec?action=get';
+        const readURL = 'https://script.google.com/macros/s/AKfycbw6ejsmEtTh2OddlBsaAFwFgadvQ1M8PCFz_VtcsSpX0Aj0tBQwR7_VJoMF9l7n_qLL/exec?action=get';
         if (!readURL) {
             reject();
             return;
