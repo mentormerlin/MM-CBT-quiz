@@ -23,7 +23,7 @@ let answers = [];
 let timerInterval;
 // The quiz should run for one hour instead of 30 minutes.  Increase the
 // duration from 1 800 seconds (30 min) to 3 600 seconds (60 min).
-const QUIZ_DURATION_SECONDS = 3600;
+const QUIZ_DURATION_SECONDS = 1800;
 
 const ADMIN_PASSWORD = 'MM@123';
 
