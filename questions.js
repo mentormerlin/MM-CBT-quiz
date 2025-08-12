@@ -60,17 +60,17 @@ const questions = [
     id: 8,
     type: 'mcq',
     question: 'What is the minimum number of correct answers needed to pass Part A?',
-    options: ['8', '10', '12', '15'],
+    options: ['8', '13', '12', '15'],
     correctIndex: 1,
-    explanation: 'You must answer at least 10 of 15 correctly to pass Part A.'
+    explanation: 'You must answer at least 13 of 15 correctly to pass Part A.'
   },
   {
     id: 9,
     type: 'mcq',
     question: 'How many questions are there in Part B?',
     options: ['15', '50', '75', '100'],
-    correctIndex: 2,
-    explanation: 'Part B consists of 75 theory questions.'
+    correctIndex: 3,
+    explanation: 'Part B consists of 100 questions.'
   },
   {
     id: 10,
